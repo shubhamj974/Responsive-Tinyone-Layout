@@ -1,0 +1,44 @@
+section {
+    padding:6rem 0 10rem;
+}
+
+:root{
+    --pri-color :#fcdb00;
+    --sec-color : #010101;
+    --ter-color : #555555;
+    --tur-color : #313841;
+    --white-color:#ffffff;
+    --light-color:#898989;
+    --li-color: #afafaf
+}
+
+li{
+    display:inline-block;
+}
+
+li{
+    list-style: none;
+}
+a:visited, a:link{
+    text-decoration: none;
+    color: var(--sec-color);
+}
+
+.mb-20 {
+    margin-bottom: 2rem;
+}
+
+.mb-60{
+    margin-bottom: 6rem;
+}
+
+.mb-100{
+    margin-bottom: 10rem;
+}
+
+.mt-70{
+    margin-top: 7rem;
+}
+
+
+

@@ -1,0 +1,152 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: var(--pri-color);
+}
+
+.header .navbar-default{
+    background-color: transparent;
+    border:0;
+    
+}
+
+.header .navbar-collapse {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.header .navbar-right>li>a {
+    color: var(--sec-color);
+    margin-right: 5rem;
+}
+
+.header .navbar-right>li>a:focus, .header .navbar-right>li>a:hover , .header .navbar-right>li>a:active {
+    color: var(--pri-color);
+    background-color: #010101;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.header .navbar-brand {
+    padding: 0px 1.5rem;
+     
+}
+
+.header .navbar-left>li>a {
+    margin: 0;
+    color:var(--sec-color)
+}
+
+.header .icon .navbar-left>li>a:focus, .header .icon .navbar-left>li>a:hover {
+    background-color: transparent;
+}
+
+.pri-heading {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: var(--sec-color);
+}
+
+.sec-heading {
+    font-size: 2rem;
+    color: var(--tur-color);
+    font-weight: 400;
+}
+
+.para-info {
+    font-size: 1.6rem;
+    color: var(--ter-color);
+    font-weight: 400;
+}
+
+ 
+
+@media all and (max-width:600px){
+    .header .navbar-right>li>a {
+        margin-left: 0rem;
+    }
+    .header .responsive{
+        width:100%;
+        
+    }
+}
+
+@media all and (min-width:900px){
+    .header .responsive{
+        margin-top: 3rem;
+        
+    }
+}
+
+.header .icon li {
+    margin-right:1.5rem;  
+}
+.header .icon ul{
+    padding: 0;
+}
+
+/* Feature section */
+
+.feature .sec-heading{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.feature .panel{
+    border:0;
+    box-shadow: 0 0 0 0;
+}
+
+
+/* Footer section */
+
+.footer{
+    background-color: var(--sec-color);
+}
+
+.footer .pri-heading{
+    color:var(--pri-color);
+}
+
+.footer .form-inline .form-group {
+    width:calc(100% - 90px)
+}
+
+.footer .input-group{
+    width:100%;
+}
+
+@media all and (max-width:700px){
+    .footer .input-group{
+        margin-left: 45px; 
+    }
+}
+
+.footer .btn{
+    background-color: var(--pri-color);
+    font-weight:bold;
+    border-color: var(--pri-color);
+}
+
+.footer-icon li a{
+    color: var(--pri-color);
+}
+
+.footer .footer-icon li {
+    margin-right:15px;  
+}
+
+.footer .para-info ,.footer .para-info a{
+    color:var(--li-color);
+}
+
+ 
+ 
+
+
+ 
+
+
